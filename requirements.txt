@@ -1,15 +1,1 @@
-| Requirement | Original code |
-| At least 7 routes | Yes—10 routes |
-| At least 5 pages | Yes—6 pages |
-| Four State fields that change | Yes—assembly name, number, date, and parts |
-| List of instances of a second dataclass | Yes—`parts: list[Part]` |
-| At least 3 inputs | Yes—multiple TextBoxes and a SelectBox |
-| At least 3 meaningful if statements | Yes—input validation, duplicate checking, and missing-information checks |
-| Meaningful loop through the parts | Yes—builds the BOM and drawing review |
-| Legitimate purpose | Yes—organizes assembly information |
-| No global variables | Yes—app data is stored in State |
-| Uses Drafter | Yes |
-| Types, docstrings, and helper functions | Yes |
-| Lines no longer than 120 characters | Yes |
-| Test for every route | Yes—in the separate `test_main.py`; all 11 tests originally passed |
-| `set_site_information(...)` | Yes |
+# No additional packages required.
